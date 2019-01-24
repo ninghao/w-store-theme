@@ -1,0 +1,26 @@
+.input-text, input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid #C6C6C6;
+}
+
+.input-text:focus, input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=url]:focus, textarea:focus {
+  border-bottom: 1px solid #000;
+  background-color: transparent;
+}
+
+.select2-container--default .select2-selection--single {
+  border: none;
+  border-bottom: 1px solid #c6c6c6;
+  border-radius: 0;
+}
+
+.select2-dropdown {
+  border-bottom: 1px solid #c6c6c6;
+  border-radius: 0;
+}
+
+.select2-container--open .select2-dropdown--below {
+  margin-top: 3px;
+  border: 1px solid #c6c6c6;
+}

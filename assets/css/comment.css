@@ -1,0 +1,16 @@
+.comment-form .comment-notes {
+  opacity: 0.5;
+  font-size: 14px;
+}
+
+#reviews .comment-form-rating label {
+  display: none;
+}
+
+p.stars {
+  font-size: 24px;
+}
+
+.comment-form-comment label {
+  font-weight: bold;
+}

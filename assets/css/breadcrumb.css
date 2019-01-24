@@ -1,0 +1,11 @@
+.woocommerce-breadcrumb a:first-of-type::before {
+  content: '';
+}
+
+.woocommerce-breadcrumb {
+  margin-left: -5px;
+}
+
+.storefront-breadcrumb {
+  margin-bottom: 32px;
+}

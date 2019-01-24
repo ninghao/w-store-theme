@@ -1,0 +1,19 @@
+/*
+Theme Name:   w-store
+Template:     storefront
+Author:       ninghao.net
+Author URI:   https://ninghao.net
+*/
+
+.storefront-sorting {
+  display: none;
+}
+
+.site-footer .site-info {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 16px;
+}
+
+
