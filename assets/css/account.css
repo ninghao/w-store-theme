@@ -1,0 +1,14 @@
+.woocommerce-MyAccount-content {
+  font-weight: 300;
+}
+
+.my_account_orders .button.view::after {
+  content: '';
+  margin-left: 0;
+}
+
+.my_account_orders .button, .woocommerce-MyAccount-downloads .button {
+  padding: 4px 10px;
+  letter-spacing: 0;
+}
+
