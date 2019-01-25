@@ -54,6 +54,6 @@
   font-size: 18px;
 }
 
-.woocommerce-tabs ul.tabs li.active a, ul.products li.product .price, .onsale, .widget_search form:before, .widget_product_search form:before {
+.woocommerce-tabs ul.tabs li.active a, .onsale, .widget_search form:before, .widget_product_search form:before {
   font-weight: bold;
 }
