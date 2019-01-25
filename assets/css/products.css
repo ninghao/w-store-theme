@@ -23,3 +23,6 @@ ul.products li.product .add_to_cart_button {
   display: none;
 }
 
+.term-description {
+  font-weight: 300;
+}

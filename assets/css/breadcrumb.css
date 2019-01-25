@@ -9,3 +9,8 @@
 .storefront-breadcrumb {
   margin-bottom: 32px;
 }
+
+.woocommerce-breadcrumb {
+  font-weight: 300;
+  font-size: 16px;
+}
