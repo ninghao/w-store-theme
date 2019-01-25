@@ -8,6 +8,6 @@ p {
   font-size: 18px;
 }
 
-a:focus {
+a:focus, .button:focus, .button.alt:focus, button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
   outline: none;
 }
