@@ -92,14 +92,32 @@ function w_store_default_address_fields( $fields ) {
    * set field to not required.
    */
   $fields['last_name']['required'] = false;
+  $fields['country']['required'] = false;
 
   /**
    * using css to hide fields.
    */
   $fields['last_name']['class'][] = 'hidden-field';
+  $fields['country']['class'][] = 'hidden-field';
 
   return $fields;
 }
 
 add_action( 'woocommerce_default_address_fields', 'w_store_default_address_fields' );
 
+/**
+ * woocommerce_address_to_edit
+ */
+
+add_filter('woocommerce_address_to_edit', 'w_store_address_to_edit');
+
+function w_store_address_to_edit( $fields ) {
+  /**
+   * modify field class.
+   */
+  $fields['billing_first_name']['class'] = [];
+  $fields['billing_state']['class'] = ['form-row-first'];
+  $fields['billing_city']['class'] = ['form-row-last'];
+  // echo '<pre>' , var_dump($address) , '</pre>';
+  return $fields;
+}

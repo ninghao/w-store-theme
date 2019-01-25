@@ -10,3 +10,7 @@
 .woocommerce-billing-fields input, .woocommerce-billing-fields select {
   font-weight: bold;
 }
+
+.woocommerce-address-fields input {
+  font-weight: bold;
+}
