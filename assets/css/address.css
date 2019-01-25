@@ -1,0 +1,12 @@
+
+.woocommerce-billing-fields #billing_last_name_field {
+  display: none;
+}
+
+.hidden-field {
+  display: none;
+}
+
+.woocommerce-billing-fields input, .woocommerce-billing-fields select {
+  font-weight: bold;
+}

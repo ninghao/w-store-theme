@@ -176,7 +176,11 @@ button.menu-toggle span::before, button.menu-toggle::after, button.menu-toggle::
     width: 280px;
   }
 
-  .storefront-full-width-content .woocommerce-products-header h1:last-child, .storefront-full-width-content.woocommerce-account .entry-header h1:last-child, .storefront-full-width-content.woocommerce-cart .entry-header h1:last-child, .storefront-full-width-content.woocommerce-checkout .entry-header h1:last-child {
+  .storefront-full-width-content .woocommerce-products-header h1:last-child,
+  .storefront-full-width-content.woocommerce-account .entry-header h1:last-child,
+  /* .storefront-full-width-content.woocommerce-cart .entry-header h1:last-child, */
+  /* .storefront-full-width-content.woocommerce-checkout .entry-header h1:last-child  */
+  {
     font-weight: 700;
     text-align: left;
     font-size: 24px;
