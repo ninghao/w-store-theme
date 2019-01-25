@@ -42,6 +42,16 @@ button.menu-toggle span::before, button.menu-toggle::after, button.menu-toggle::
 }
 
 @media (min-width: 768px) {
+  .primary-navigation {
+    max-height: 90px;
+    overflow: hidden;
+  }
+
+  .main-navigation ul li,
+  .secondary-navigation ul li {
+    white-space: nowrap;
+  }
+
   .site-header .col-full {
     display: flex;
     flex-wrap: nowrap;
