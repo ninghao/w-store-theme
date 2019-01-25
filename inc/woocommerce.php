@@ -121,3 +121,14 @@ function w_store_address_to_edit( $fields ) {
   // echo '<pre>' , var_dump($address) , '</pre>';
   return $fields;
 }
+
+/**
+ * chinese address output
+ */
+add_filter( 'woocommerce_localisation_address_formats', 'woocommerce_custom_address_format', 20 );
+function woocommerce_custom_address_format( $formats ) {
+    // echo '<pre>' , var_dump($formats) , '</pre>';
+    $formats[ 'CN' ]  = "<strong>{name}</strong>：{state}，{city}，{address_1}，{postcode}";
+     
+    return $formats;
+}
