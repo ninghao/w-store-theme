@@ -3,3 +3,8 @@
   box-shadow: none;
   border-top: 1px solid #eee;
 }
+
+.storefront-handheld-footer-bar ul li.search.active .site-search {
+  font-size: 18px;
+  border-top: 1px solid #eee;
+}
