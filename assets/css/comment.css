@@ -14,3 +14,20 @@ p.stars {
 .comment-form-comment label {
   font-weight: bold;
 }
+
+.storefront-full-width-content.single-product #reviews .commentlist li .avatar {
+  margin-top: 8px;
+}
+
+#respond {
+  background-color: #fff;
+  border: 1px solid #0000000d;
+}
+
+.comment-form-comment label {
+  font-weight: 300;
+}
+
+.comment-form-comment textarea {
+  padding: 24px 0;
+}
