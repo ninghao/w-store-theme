@@ -99,3 +99,17 @@ table.cart .product-thumbnail img {
 .cart-subtotal .woocommerce-Price-amount {
   font-weight: bold;
 }
+
+.site-header .widget_shopping_cart p.total {
+  text-align: right;
+  font-size: 14px;
+}
+
+.site-header .widget_shopping_cart p.total strong {
+  padding-right: 4px;
+}
+
+.site-header .widget_shopping_cart li, 
+.site-header .widget_shopping_cart p.buttons {
+  font-size: 14px;
+}
