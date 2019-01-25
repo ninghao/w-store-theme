@@ -73,9 +73,12 @@ function w_store_override_checkout_fields( $fields ) {
 }
 
 /**
- * set default address fields order.
+ * modify default address fields.
  */
 function w_store_default_address_fields( $fields ) {
+  /**
+   * change field order
+   */
   $fields['first_name']['priority'] = 10;
   $fields['last_name']['priority'] = 20;
   $fields['country']['priority'] = 30;
@@ -84,6 +87,17 @@ function w_store_default_address_fields( $fields ) {
   $fields['address_1']['priority'] = 60;
   $fields['postcode']['priority'] = 70;
   // echo '<pre>' , var_dump($fields) , '</pre>';
+
+  /**
+   * set field to not required.
+   */
+  $fields['last_name']['required'] = false;
+
+  /**
+   * using css to hide fields.
+   */
+  $fields['last_name']['class'][] = 'hidden-field';
+
   return $fields;
 }
 
