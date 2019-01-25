@@ -20,6 +20,7 @@ function w_store_scripts() {
 	wp_enqueue_style( 'w-sotre-comment', get_stylesheet_directory_uri() . '/assets/css/comment.css', array(), wp_get_theme()->get( 'Version' ) );
 	wp_enqueue_style( 'w-sotre-address', get_stylesheet_directory_uri() . '/assets/css/address.css', array(), wp_get_theme()->get( 'Version' ) );
 	wp_enqueue_style( 'w-sotre-widget', get_stylesheet_directory_uri() . '/assets/css/widget.css', array(), wp_get_theme()->get( 'Version' ) );
+	wp_enqueue_style( 'w-sotre-alert', get_stylesheet_directory_uri() . '/assets/css/alert.css', array(), wp_get_theme()->get( 'Version' ) );
 }
 add_action( 'wp_enqueue_scripts', 'w_store_scripts', 90 );
 

@@ -1,0 +1,59 @@
+.woocommerce-info {
+  border-color: #1E88E5;
+}
+
+.woocommerce-message {
+  border-color: #43A047;
+}
+
+.woocommerce-error {
+  border-color: #E53935;
+}
+
+.woocommerce-error,
+.woocommerce-info, 
+.woocommerce-message, 
+.woocommerce-noreviews, 
+p.no-comments {
+  background: #f8f8f8;
+  color: #000;
+  font-weight: 300;
+  border-radius: 0;
+  border-width: 3px;
+}
+
+.woocommerce-error .button, 
+.woocommerce-info .button, 
+.woocommerce-message .button, 
+.woocommerce-noreviews .button, 
+p.no-comments .button {
+  color: #000;
+  font-weight: 300;
+}
+
+.woocommerce-error a, 
+.woocommerce-info a, 
+.woocommerce-message a, 
+.woocommerce-noreviews a, 
+p.no-comments a {
+  color: #000;
+  font-weight: 500;
+}
+
+.woocommerce-error a:hover, 
+.woocommerce-info a:hover,
+.woocommerce-message a:hover, 
+.woocommerce-noreviews a:hover, 
+p.no-comments a:hover {
+  color: #000;
+  opacity: 0.7;
+}
+
+.woocommerce-error a.button:hover,
+.woocommerce-info a.button:hover, 
+.woocommerce-message a.button:hover,
+.woocommerce-noreviews a.button:hover, 
+p.no-comments a.button:hover {
+  color: #000;
+  opacity: 0.7;
+}
