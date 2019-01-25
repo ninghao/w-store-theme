@@ -32,14 +32,34 @@ table.cart td.product-remove {
   border: none;
 }
 
+.shop_table {
+  position: relative;
+}
+
+table.cart tr:first-child td.product-remove a {
+  position: absolute;
+  right: 20px;
+  top: 48px;
+}
+
 @media (min-width: 768px) {
   table.cart td.product-remove {
     border-bottom: 1px solid #eee;
   }
 
+  table.cart tr:first-child td.product-remove a {
+    position: relative;
+    top: 20px;
+    right: 0;
+  }
+
   table td, table th {
     border-bottom: 1px solid #eee;
     background: #fff;
+  }
+
+  table.cart tr:first-child td.product-remove {
+    width: 50px; 
   }
 }
 
@@ -68,5 +88,14 @@ table.cart td, table.cart th {
 }
 
 .woocommerce-cart-form__cart-item .product-name {
+  font-weight: bold;
+}
+
+table.cart .product-thumbnail img {
+  max-width: 90px;
+  margin: 0;
+}
+
+.cart-subtotal .woocommerce-Price-amount {
   font-weight: bold;
 }
