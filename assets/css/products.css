@@ -19,10 +19,22 @@ ul.products li.product .woocommerce-loop-product__title, ul.products li.product 
   font-size: 18px;
 }
 
-ul.products li.product .add_to_cart_button {
+ul.products li.product .add_to_cart_button, ul.products li.product .button {
   display: none;
 }
 
 .term-description {
   font-weight: 300;
+}
+
+.woocommerce-result-count {
+  font-weight: 300;
+}
+
+.woocommerce-pagination .page-numbers {
+  font-size: 16px;
+}
+
+.woocommerce-ordering {
+  display: none;
 }
