@@ -1,10 +1,24 @@
-.input-text, input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], textarea {
+.input-text, 
+input[type=email], 
+input[type=password], 
+input[type=search], 
+input[type=tel], 
+input[type=text], 
+input[type=url], 
+textarea {
   background-color: transparent;
   box-shadow: none;
   border-bottom: 1px solid #C6C6C6;
 }
 
-.input-text:focus, input[type=email]:focus, input[type=password]:focus, input[type=search]:focus, input[type=tel]:focus, input[type=text]:focus, input[type=url]:focus, textarea:focus {
+.input-text:focus, 
+input[type=email]:focus, 
+input[type=password]:focus, 
+input[type=search]:focus, 
+input[type=tel]:focus, 
+input[type=text]:focus, 
+input[type=url]:focus, 
+textarea:focus {
   border-bottom: 1px solid #000;
   background-color: transparent;
 }

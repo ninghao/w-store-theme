@@ -2,15 +2,18 @@
   background-color: #fff;
 }
 
-.site-header-cart.focus .widget_shopping_cart, .site-header-cart:hover .widget_shopping_cart {
+.site-header-cart.focus .widget_shopping_cart, 
+.site-header-cart:hover .widget_shopping_cart {
   border: 1px solid #eee;
 }
 
-.site-header-cart .widget_shopping_cart .buttons, .site-header-cart .widget_shopping_cart .total {
+.site-header-cart .widget_shopping_cart .buttons, 
+.site-header-cart .widget_shopping_cart .total {
   background-color: #fff;
 }
 
-.site-header-cart .widget_shopping_cart .buttons, .site-header-cart .widget_shopping_cart .total {
+.site-header-cart .widget_shopping_cart .buttons, 
+.site-header-cart .widget_shopping_cart .total {
   background-color: #fff;
 }
 
@@ -63,7 +66,9 @@ table.cart tr:first-child td.product-remove a {
   }
 }
 
-table tbody tr:nth-child(2n) td, fieldset, fieldset legend {
+table tbody tr:nth-child(2n) td, 
+fieldset, 
+fieldset legend {
   background-color: #fff;
 }
 
@@ -71,7 +76,8 @@ a.remove::before {
   color: #000;
 }
 
-table.cart td, table.cart th {
+table.cart td, 
+table.cart th {
   padding: 16px;
 }
 
