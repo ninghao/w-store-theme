@@ -132,3 +132,13 @@ function woocommerce_custom_address_format( $formats ) {
      
     return $formats;
 }
+
+/**
+ * woocommerce_show_page_title
+ */
+
+add_filter( 'woocommerce_show_page_title', 'w_store_show_page_title' );
+
+function w_store_show_page_title() {
+  return !is_front_page();
+}
