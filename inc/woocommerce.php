@@ -142,3 +142,11 @@ add_filter( 'woocommerce_show_page_title', 'w_store_show_page_title' );
 function w_store_show_page_title() {
   return !is_front_page();
 }
+
+/**
+ * woocommerce_before_shop_loop
+ */
+function w_store_before_shop_loop() {
+  remove_action( 'woocommerce_before_shop_loop', 'storefront_woocommerce_pagination', 30 );  
+}
+add_action( 'woocommerce_before_shop_loop', 'w_store_before_shop_loop' );
