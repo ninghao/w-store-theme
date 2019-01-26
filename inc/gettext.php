@@ -1,9 +1,10 @@
 <?php
 
 /**
- * gettext_with_context
- * https://codex.wordpress.org/Plugin_API/Filter_Reference/gettext_with_context
+ * gettext
  */
+add_filter( 'gettext', 'w_store_gettext', 20, 3 );
+
 function w_store_gettext( $translated, $text,  $domain ) {
   if ( $domain == 'woocommerce' ) {
     switch ( $text ) {
@@ -14,7 +15,11 @@ function w_store_gettext( $translated, $text,  $domain ) {
   }
   return $translated;
 }
-add_filter( 'gettext', 'w_store_gettext', 20, 3 );
+
+/**
+ * ngettext
+ */
+add_filter( 'ngettext', 'w_store_ngettext', 20, 5 );
 
 function w_store_ngettext( $translation, $single, $plural, $number, $domain ) {
   if ( $domain == 'woocommerce' ) {
@@ -33,4 +38,3 @@ function w_store_ngettext( $translation, $single, $plural, $number, $domain ) {
 
   return $translation;
 }
-add_filter( 'ngettext', 'w_store_ngettext', 20, 5 );
