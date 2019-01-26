@@ -62,3 +62,5 @@ typings/
 
 # project
 .DS_Store
+*.pot*
+*.po*
