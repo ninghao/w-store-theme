@@ -33,7 +33,8 @@ button.menu-toggle::before {
   width: 24px;
 }
 
-.main-navigation div.menu>ul:not(.nav-menu) {
+.main-navigation div.menu>ul:not(.nav-menu),
+.handheld-navigation {
   position: absolute;
   right: 0;
   background: #fff;
@@ -43,6 +44,10 @@ button.menu-toggle::before {
   left: 0;
   right:0;
   display: none;
+}
+
+.toggled .handheld-navigation {
+  display: block;
 }
 
 .main-navigation.toggled div.menu>ul:not(.nav-menu) {
