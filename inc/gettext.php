@@ -14,6 +14,12 @@ function w_store_gettext( $translated, $text,  $domain ) {
       case 'Place order':
         $translated = __( 'Submit order', 'storefront' );
         break;
+      case 'WooCommerce':
+        $translated = __( 'Store', 'storefront' );
+        break;
+      case 'Add New':
+        $translated = __( 'Add New', 'storefront' );
+        break;
     }
   }
   return $translated;
