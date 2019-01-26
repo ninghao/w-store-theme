@@ -8,6 +8,10 @@
   display: none;
 }
 
+.site-branding img {
+  border-radius: 0;
+}
+
 .site-header .col-full {
   display: flex;
   align-items: center;
