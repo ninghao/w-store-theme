@@ -30,3 +30,12 @@ add_action( 'wp_enqueue_scripts', 'w_store_scripts', 90 );
  * quality of upload images thumbnail.
  */
 add_filter( 'jpeg_quality', function( ) { return 100; } );
+
+/**
+ * setup theme
+ */
+add_action( 'after_setup_theme', 'w_store_setup' );
+
+function w_store_setup() {
+	// load_theme_textdomain( 'w-store', get_stylesheet_directory_uri() . '/languages' );
+}
