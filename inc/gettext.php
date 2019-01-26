@@ -28,13 +28,13 @@ function w_store_ngettext( $translation, $single, $plural, $number, $domain ) {
   if ( $domain == 'woocommerce' ) {
     switch ( $plural ) {
       case '%d: total results':
-        $translation = '%d 个结果';
+        // $translation = '%d 个结果';
         break;
     }
 
     switch ( $single ) {
       case 'Showing the single result':
-        $translation = '%d 个结果';
+      //   $translation = '%d 个结果';
         break;
     }
   }
