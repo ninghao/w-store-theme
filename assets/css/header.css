@@ -76,7 +76,8 @@ button.menu-toggle::before {
     order: 0;
   }
 
-  .storefront-secondary-navigation.woocommerce-active .site-header .site-branding {
+  .storefront-secondary-navigation.woocommerce-active .site-header .site-branding,
+  .woocommerce-active .site-header .site-branding {
     align-self: center;
     text-align: center;
     margin: 0;
