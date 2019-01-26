@@ -29,6 +29,7 @@ ul.products li.product .add_to_cart_button, ul.products li.product .button {
 
 .woocommerce-result-count {
   font-weight: 300;
+  display: none;
 }
 
 .woocommerce-pagination .page-numbers {

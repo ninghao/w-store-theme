@@ -4,6 +4,7 @@ require get_stylesheet_directory() . '/inc/header.php';
 require get_stylesheet_directory() . '/inc/footer.php';
 require get_stylesheet_directory() . '/inc/product.php';
 require get_stylesheet_directory() . '/inc/woocommerce.php';
+require get_stylesheet_directory() . '/inc/gettext.php';
 
 /**
  * styles and scripts.
